@@ -1,0 +1,64 @@
+
+
+    /********** BASE STYLE **********/
+    *{
+      box-sizing: border-box;
+    }
+    section{
+      float: left;
+      background-color:pink;
+      border:1px solid red;
+    }
+    h1{
+      text-align: center;
+      margin-bottom: 45px;
+      color: red;
+    }
+
+    p{
+      color:violet;
+      padding: 50px 30px 30px 30px;
+      text-align: center;
+    }
+
+    section h1{
+      float:right;
+      margin: 0;
+      padding: 10px;
+      background-color:beige;
+      border-color:2px white;
+    }
+
+
+    .row{
+      width: 100%;
+    }
+
+   /* Mobile view resolution */
+@media (max-width: 767px){
+  .col-lg-4 {
+    width: 92%;
+    margin: 4%;
+  }
+}
+
+/* Tablet view resolution */
+@media (min-width: 768px) and (max-width: 991px){
+  .col-md-6{
+    width: 45%;
+    margin: 2.5%;
+  }
+  .col-md-12{
+    width: 95%;
+    margin: 2.5%;
+    
+  }
+}
+
+/* Desktop view resolution */
+@media (min-width: 992px){
+  section{
+    width: 30%;
+    margin: 1.66%;
+  }
+}
